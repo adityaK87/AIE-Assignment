@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wght@500&family=Noto+Sans+JP:wght@400;500&family=Noto+Sans+KR:wght@500&family=Open+Sans:wght@400;500&display=swap");
+
+/* Style for the dropdown content items */
+
+.createQuiz {
+	margin: 1rem;
+	display: flex;
+}
+.createQuiz > button {
+	text-align: center;
+}
+
+.languages {
+	margin: 2rem;
+}
+
+.subjects {
+	padding: 10px 0px;
+	margin: 2rem;
+	background: #ffffff;
+	display: grid;
+	gap: 2rem;
+	grid-template-columns: 2fr 2fr;
+	margin-top: 20px;
+	width: 974px;
+	height: 352px;
+	align-items: center;
+	justify-items: center;
+	border-radius: 10px;
+}
+
+.questionContainer {
+	width: 974px;
+	height: 756px;
+	background: #fff;
+	gap: 2rem;
+	grid-template-columns: 2fr 2fr;
+	margin-top: 20px;
+	align-items: center;
+	justify-items: center;
+	border-radius: 10px;
+}
+.questionInput {
+	width: 90%;
+	height: 45px;
+	font-size: 30px;
+	color: #707070;
+	background: #f5f6f7;
+	border-radius: 10px;
+}
+
+.optionContainer {
+	display: grid;
+	grid-template-columns: 1fr 4fr 1fr;
+	gap: 2rem;
+}
+.optionText {
+	line-height: 2.6;
+	font-size: 24px;
+	border-radius: 10px;
+	background: #f5f6f7;
+	color: #707070;
+	margin: 20px;
+}
+
+.icon {
+	font-size: 30px;
+	padding: 12px;
+	margin: auto 0px;
+	color: #707070;
+}
+
+.inputOption {
+	width: 40px;
+	background: #c20000;
+}
+
+.buttonComponent {
+	text-align: center;
+}
