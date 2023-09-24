@@ -1,0 +1,33 @@
+.button {
+	align-items: center;
+	appearance: none;
+	border-width: 0;
+	box-sizing: border-box;
+	display: inline-flex;
+	height: 66px;
+	justify-content: center;
+	list-style: none;
+	overflow: hidden;
+	position: relative;
+	text-decoration: none;
+	transition: box-shadow 0.15s, transform 0.15s;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	white-space: nowrap;
+	will-change: box-shadow, transform;
+	margin: 12px 0px;
+	font-family: var(--font-family);
+	color: #fff;
+	border: none;
+	font-style: normal;
+	line-height: 16px;
+	text-align: center;
+	padding: 1rem;
+	font-size: 18px;
+	background: #7a58e6;
+	border-radius: 16px;
+	font-weight: 500;
+	min-width: 240px;
+	font-family: "Poppins", sans-serif;
+}
